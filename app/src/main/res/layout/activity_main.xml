@@ -4,44 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#98ACCA"
+    android:background="@drawable/wallpaper"
     tools:context=".MainActivity">
 
-    <TextView
-        android:gravity="center"
-        android:id="@+id/Tv_Localisation"
+
+    <Switch
+        android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="129dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        android:layout_marginBottom="116dp"
-        android:lineSpacingExtra="3sp"
-        android:text="Pour lancer l'application appuyer sur le bouton ci-dessous, vous pouvais ensuite laisser l'application tourner en tache de fond."
-        android:textAllCaps="false"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:fontFamily="sans-serif-black"
-        app:layout_constraintBottom_toTopOf="@+id/Btn_ActiverLocalisation"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="352dp"
+        android:text="Veuillez lancer l'application"
+        android:textOn="ON"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/Btn_ActiverLocalisation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginLeft="161dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginEnd="161dp"
-        android:layout_marginRight="161dp"
-        android:text="Lancer"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
